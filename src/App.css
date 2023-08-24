@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+:root {
+    --fam: 'Rubik', sans-serif;
+    --col: #3D4957;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flexUtil{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.List{
+  width: 35%;
+  padding: 10px;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.searchBox{
+  width: 100%;
+  padding: 10px 10px;
+  border: 0.1px solid rgba(0,0,0,0.3);
+  border-radius: 10px;
+}
+.searchBox input{
+  width: 70%;
+  background-color: white;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  font: 400 1.1rem var(--fam);
+}
+
+
+@media (max-width:900px){
+  .List{
+    width: 60%;
+  }
+}
+
+@media (max-width:500px){
+  .List{
+    width: 90%;
+  }
+}
